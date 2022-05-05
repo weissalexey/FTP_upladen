@@ -1,7 +1,7 @@
 Set oShell = CreateObject("Shell.Application")
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 
-path = "c:\Users\aw\Desktop\winspied\ELVIS\"
+path = "\winspied\ELVIS\"
 
 FTPUpload(path)
 Sub FTPUpload(path)
